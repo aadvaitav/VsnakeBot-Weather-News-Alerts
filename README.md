@@ -5,7 +5,7 @@ Weather Information: Get current weather conditions and forecasted weather for t
 News Headlines: Fetch top headlines from various news sources.
 Natural Disaster Alerts: Receive alerts about tropical cyclones, floods, and earthquakes.
 Email Alerts: Receive flood alerts via email.
-## Features
+##
 
 - **Greeting:** The bot greets users upon interaction, creating a welcoming environment for conversation.
 - **Get Weather:** Retrieve current weather conditions and forecast for a specified location.
@@ -39,7 +39,18 @@ Copy code
 pip install -r requirements.txt
 Obtain API keys for WeatherAPI and NewsAPI.
 
-Remember to replace `'your_username'`, `'enter your api key for weather'`, `'enter your api key for news'`, `'user@gmail.com'`, and `'password'` with your actual information.
+Obtain API keys:
+
+Obtain a weather API key from Weather API.
+Obtain a news API key from News API.
+Update API keys:
+
+Replace 'enter your api key for weather' with your weather API key in main.py.
+Replace 'enter your api key for news' with your news API key in main.py.
+Configure email settings:
+
+Replace 'user@gmail.com' with your Gmail address in email_alert function for sending email notifications.
+Replace 'password' with your Gmail password in email_alert function.
 
 Run the application:
 
@@ -56,6 +67,9 @@ Get Natural Disaster Events: Fetch information about tropical cyclones, floods, 
 Type bye to exit the chatbot.
 Contributions
 Contributions are welcome! If you have any suggestions, bug reports, or feature requests, feel free to open an issue or create a pull request.
+
+Disclaimer
+This bot currently provides basic functionalities and may be expanded in the future to include more features.
 
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
